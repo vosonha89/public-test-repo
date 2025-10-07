@@ -91,8 +91,8 @@ Contains application logic that orchestrates the flow of data to and from domain
 
 1. Clone the repository
    ```bash
-   git clone https://github.com/yourusername/Top.MasonTech.NetCoreBaseAPI.git
-   cd Top.MasonTech.NetCoreBaseAPI
+   git clone https://github.com/yourusername/xxx.git
+   cd xxx
    ```
 
 2. Restore dependencies
@@ -112,7 +112,7 @@ Contains application logic that orchestrates the flow of data to and from domain
 1. Build and run the application:
    ```bash
    dotnet build
-   dotnet run --project Presentation/APIs/Top.MasonTech.NetCoreBaseAPI
+   dotnet run
    ```
 
 2. Open your browser and navigate to `https://localhost:5001/swagger` to view the API documentation
@@ -254,24 +254,3 @@ dotnet ef database update --project Infrastructure/Persistence --startup-project
 ## 📄 License
 
 This project is licensed under the MIT License, see the [LICENSE](LICENSE) file for details.
-
-
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fvosonha89%2Fnetcore-api-base.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fvosonha89%2Fnetcore-api-base?ref=badge_large)
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-Please make sure your code follows the existing style and includes appropriate tests.
-
-## 🏢 About MasonTech
-
-This project template is maintained by MasonTech and provides a standardized approach to building scalable .NET Core applications following industry best practices.
-
-For questions, feedback, or support, please contact us at support@masontech.com or visit our website at [https://masontech.com](https://masontech.com).
