@@ -1,12 +1,5 @@
 # Test 003 - Shop Management
 
-[![.NET](https://img.shields.io/badge/.NET-8.0-512BD4)](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
-[![Build Status](https://img.shields.io/badge/build-passing-brightgreen)][![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fvosonha89%2Fnetcore-api-base.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fvosonha89%2Fnetcore-api-base?ref=badge_shield)
-()
-[![SonarCloud](https://sonarcloud.io/images/project_badges/sonarcloud-white.svg)](https://sonarcloud.io/summary/new_code?id=Top.MasonTech.NetCoreBaseAPI)
-[![SonarLint](https://img.shields.io/badge/SonarLint-Enabled-brightgreen)](https://www.sonarlint.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-
 A clean architecture-based .NET 8.0 Web API template for building modern, maintainable web services. This project implements a comprehensive foundation for building production-ready APIs with best practices and industry standards baked in.
 
 ## Project Overview
