@@ -1,0 +1,55 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <NoDefaultLaunchSettingsFile>True</NoDefaultLaunchSettingsFile>
+        <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="DevNetCore.SimpleRepository" Version="0.0.2" />
+        <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="8.0.11" />
+        <PackageReference Include="SonarAnalyzer.CSharp" Version="10.11.0.117924">
+          <PrivateAssets>all</PrivateAssets>
+          <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+        <PackageReference Include="SonarAnalyzer.CSharp.Styling" Version="10.11.0.117924">
+          <PrivateAssets>all</PrivateAssets>
+          <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2"/>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Infrastructure\External\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Update="Test003.Test\UnitTest1.cs">
+        <Link>UnitTest\UnitTest1.cs</Link>
+      </Compile>
+      <Compile Remove="Test003.Test\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="Test003.Test\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Remove="Test003.Test\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Test003.Test\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="Test003.Test\obj\project.assets.json" />
+      <_ContentIncludedByDefault Remove="Test003.Test\obj\project.packagespec.json" />
+      <_ContentIncludedByDefault Remove="Test003.Test\obj\Test003.Test.csproj.nuget.dgspec.json" />
+      <_ContentIncludedByDefault Remove="Test003.Test\obj\UnitTest.csproj.nuget.dgspec.json" />
+    </ItemGroup>
+
+</Project>
