@@ -1,4 +1,4 @@
-# Top.MasonTech.NetCoreBaseAPI
+# Test 003 - Shop Management
 
 [![.NET](https://img.shields.io/badge/.NET-8.0-512BD4)](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen)][![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fvosonha89%2Fnetcore-api-base.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fvosonha89%2Fnetcore-api-base?ref=badge_shield)
